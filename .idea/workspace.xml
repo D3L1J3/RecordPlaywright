@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4adb1751-fea4-4d3d-b8b1-d5cc45aff173" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OrangeHRM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ParallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videos/6471ad54161ee51a8e4f93ef2bafbc10.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videos/b63ccf7b2da3f6c39e1903d3ac249a85.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videos/d82f0aeba4fe475b802ad5d7b46a9559.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videos/testExample.webm" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JtyqnqTWFzgyDnVOGMW3qn6DLv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Users/draga/OneDrive/Documents/GitHub/Playwright1",
+    "settings.editor.selected.configurable": "Errors"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ParallelTest">
+    <configuration name="ParallelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ParallelTest" />
+      <module name="RecordPlaywright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/draga/IdeaProjects/RecordPlaywright/src/main/java/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RecordPlaywright" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/testing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ParallelTest" />
+        <item itemvalue="TestNG.C:/Users/draga/IdeaProjects/RecordPlaywright/src/main/java/testing.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4adb1751-fea4-4d3d-b8b1-d5cc45aff173" name="Changes" comment="" />
+      <created>1672911870327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672911870327</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
