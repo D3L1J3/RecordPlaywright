@@ -38,7 +38,7 @@ public class OrangeHRMLogin {
         page.locator("//button[@type=\"submit\"]").click(); // comment out to fail test
         // and get screenshot from tearDown
 
-        page.waitForLoadState(LoadState.NETWORKIDLE);
+        page.waitForLoadState(LoadState.NETWORKIDLE); // wait for page to fully load
         // Take screenshot of entire page
         page.screenshot(new ScreenshotOptions().setPath(Paths.get("Dashboard.png")));
         page.screenshot(new ScreenshotOptions().setPath(Paths.get("FullDashboard.png")).setFullPage(true));
