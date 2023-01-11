@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4adb1751-fea4-4d3d-b8b1-d5cc45aff173" name="Changes" comment="commit4">
+    <list default="true" id="4adb1751-fea4-4d3d-b8b1-d5cc45aff173" name="Changes" comment="commit6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FormTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OrangeHRMLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OrangeHRMLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dashboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FullDashboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/FullDashboard.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.OrangeHRMLogin.testLogin">
+  <component name="RunManager" selected="TestNG.FormTest">
     <configuration name="DownloadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DownloadFile" />
       <module name="RecordPlaywright" />
@@ -66,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrangeHRMLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FormTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RecordPlaywright" />
       <extension name="coverage">
         <pattern>
@@ -75,7 +77,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.OrangeHRMLogin" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FormTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FormTest" />
         <item itemvalue="TestNG.OrangeHRMLogin.testLogin" />
         <item itemvalue="TestNG.Test1" />
         <item itemvalue="Application.DownloadFile" />
         <item itemvalue="TestNG.OrangeHRMLogin (2)" />
-        <item itemvalue="TestNG.OrangeHRMLogin (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673422435385</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit5">
+      <created>1673423255277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673423255277</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit6">
+      <created>1673423485453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673423485453</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +209,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit1" />
     <MESSAGE value="commit4" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit4" />
+    <MESSAGE value="commit5" />
+    <MESSAGE value="commit6" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit6" />
   </component>
 </project>
