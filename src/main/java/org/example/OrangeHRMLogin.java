@@ -2,6 +2,7 @@ package org.example;
 
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.Page.ScreenshotOptions;
+import com.microsoft.playwright.options.LoadState;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -34,9 +35,10 @@ public class OrangeHRMLogin {
         page.locator("//input[@name='password']").fill("admin123");
 
 
-        // page.locator("//button[@type=\"submit\"]").click(); // comment out to fail test
+        page.locator("//button[@type=\"submit\"]").click(); // comment out to fail test
         // and get screenshot from tearDown
 
+        page.waitForLoadState(LoadState.NETWORKIDLE);
         // Take screenshot of entire page
         page.screenshot(new ScreenshotOptions().setPath(Paths.get("Dashboard.png")));
         page.screenshot(new ScreenshotOptions().setPath(Paths.get("FullDashboard.png")).setFullPage(true));
