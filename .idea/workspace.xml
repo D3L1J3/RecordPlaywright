@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4adb1751-fea4-4d3d-b8b1-d5cc45aff173" name="Changes" comment="commit1" />
+    <list default="true" id="4adb1751-fea4-4d3d-b8b1-d5cc45aff173" name="Changes" comment="commit1">
+      <change afterPath="$PROJECT_DIR$/Dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FailedTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FullDashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserInput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DownloadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OrangeHRMLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,20 +48,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/draga/OneDrive/Documents/GitHub/Playwright1",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/draga/OneDrive/Documents/GitHub/Playwright1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ParallelTest">
-    <configuration name="ParallelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ParallelTest" />
+}</component>
+  <component name="RunManager" selected="TestNG.Test1">
+    <configuration name="DownloadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DownloadFile" />
       <module name="RecordPlaywright" />
       <extension name="coverage">
         <pattern>
@@ -63,10 +73,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/draga/IdeaProjects/RecordPlaywright/src/main/java/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OrangeHRMLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RecordPlaywright" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/testing.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.OrangeHRMLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrangeHRMLogin (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RecordPlaywright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.OrangeHRMLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrangeHRMLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RecordPlaywright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.OrangeHRMLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RecordPlaywright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Test1" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -75,8 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParallelTest" />
-        <item itemvalue="TestNG.C:/Users/draga/IdeaProjects/RecordPlaywright/src/main/java/testing.xml" />
+        <item itemvalue="TestNG.Test1" />
+        <item itemvalue="Application.DownloadFile" />
+        <item itemvalue="TestNG.OrangeHRMLogin (2)" />
+        <item itemvalue="TestNG.OrangeHRMLogin (1)" />
+        <item itemvalue="TestNG.OrangeHRMLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673272946675</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit1">
+      <created>1673273063837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673273063837</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
