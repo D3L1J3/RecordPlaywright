@@ -12,7 +12,6 @@ import java.nio.file.Paths;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-// Recording video test
 public class Example1 {
 
     private Browser browser;
@@ -27,6 +26,10 @@ public class Example1 {
         page = context.newPage();
     }
 
+    /***
+    * Verify that page-URL is correct
+    *
+    */
     @Test
     public void testExample() {
         // go to playwright.dev
@@ -45,7 +48,11 @@ public class Example1 {
         assertThat(page).hasURL("https://playwright.dev/docs/running-tests");
     }
 
-    // Creates video folder and adds new recordings into the folder
+    
+     /***
+     * Creates video folder and adds new recordings into the folder
+     */
+
     @AfterMethod
     public void tearDown(ITestResult result) {
         String pathProject = System.getProperty("user.dir");
