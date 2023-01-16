@@ -85,4 +85,9 @@ public class GoogleTest {
         String visibility = page.getAttribute("iframe[name='app']", "style");
         assertFalse(visibility.contains("visibility: hidden;"));
     }
+
+    @AfterTest
+    public void tearDown(){
+        page.close();
+    }
 }
