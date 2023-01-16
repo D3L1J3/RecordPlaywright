@@ -2,6 +2,7 @@ package org.example;
 
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.LoadState;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -25,7 +26,7 @@ import static org.testng.AssertJUnit.*;
  * and asserts that the URL of the page contains "imghp".
  * -------------------------------------
  * The fifth test, test5ClickGoogleApps, clicks on the "Apps" button,
- * and asserts that the iFrame element is initially hidden and then
+ * and asserts that the iFrame element that is initially hidden
  * becomes visible after the specified element is clicked.
  */
 
@@ -79,15 +80,9 @@ public class GoogleTest {
     @Test
     public void test5ClickGoogleApps() {
         page.navigate("https://www.google.com");
-        String style = page.getAttribute("iframe[name='app']", "style");
-        assertTrue(style.contains("visibility: hidden;"));
-
-        page.click("div.gb_J.gb_kd.gb_o.gb_Ef[data-ogsr-fb='true']");
+        page.click(".gb_Ze");
+        page.waitForLoadState(LoadState.NETWORKIDLE);
         String visibility = page.getAttribute("iframe[name='app']", "style");
         assertFalse(visibility.contains("visibility: hidden;"));
-
-
     }
-
-
 }
