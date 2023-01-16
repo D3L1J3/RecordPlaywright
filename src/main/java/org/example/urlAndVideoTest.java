@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-public class Example1 {
+public class urlAndVideoTest {
 
     private Browser browser;
     private Page page;
