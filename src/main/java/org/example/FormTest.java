@@ -11,8 +11,13 @@ import org.testng.annotations.Test;
 import static org.testng.AssertJUnit.assertEquals;
 
 /***
- * Class comment
- *
+ * This code is a test suite written in Java using the Playwright tool.
+ * It tests a form on the website "https://selectorshub.com/xpath-practice-page/".
+ * The test opens a browser, navigates to the website,
+ * fills out the form with specific data, clicks the submit button,
+ * and asserts that the validation message displayed on the page is correct.
+ * The test also includes a method for filling out the form and a setup and
+ * tear down method for launching and closing the browser.
  */
 public class FormTest {
     Playwright playwright;
@@ -27,9 +32,6 @@ public class FormTest {
 
     }
 
-    /***
-     * Testing validationMessage when email is not valid
-     */
     @Test
     public void validateFormMessage() {
         page.navigate("https://selectorshub.com/xpath-practice-page/");
