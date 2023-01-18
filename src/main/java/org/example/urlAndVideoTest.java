@@ -12,6 +12,18 @@ import java.nio.file.Paths;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
+
+/***
+ * a test that navigates to the Playwright website,
+ * clicks on different links on the page,
+ * and asserts that the correct URLs are loaded.
+ * There is also a setup and tear down method for
+ * creating a new browser and page instances,
+ * and for closing them when the test is finished.
+ * The tear down method also creates a folder named "videos" and
+ * records a video of the test and saves it in the folder with
+ * the test name as the file name.
+ */
 public class urlAndVideoTest {
 
     private Browser browser;
