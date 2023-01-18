@@ -10,7 +10,17 @@ import org.testng.annotations.Test;
 
 import java.nio.file.Paths;
 
-// Run all
+/***
+ * This code is a test suite for logging in to the OrangeHRM website
+ * using the Playwright tool. The test navigates to the login page,
+ * fills in the username and password fields, clicks the login button,
+ * and logs out. It also takes screenshots of the username field,
+ * the dashboard page, and the entire page, as well as a screenshot
+ * of the failed test if the test does not pass. The test also waits
+ * for the page to fully load before taking the screenshots.
+ * The test also closes the browser, page, and playwright instance
+ * after the test is finished.
+ */
 public class OrangeHRMLogin {
 
     Browser browser;
