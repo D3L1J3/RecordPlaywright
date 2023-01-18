@@ -1,6 +1,5 @@
 package org.example;
 
-// run test in webkit - Login Test
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
@@ -10,6 +9,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+/***
+ * This test is using the Playwright library to automate a login process on the OrangeHRM website.
+ * The test navigates to the login page, enters the username and password,
+ * clicks the submit button, clicks the user dropdown menu,
+ * and clicks the logout button. The test is using the webkit browser and
+ * running in a non-headless mode. After the test is finished,
+ * the browser and page are closed.
+ */
 public class OrangeHRM {
 
     Browser browser;
